@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Trispace&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +10,7 @@ nav a {
     text-align: center;
     color: #e7ede8;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -22,12 +26,18 @@ main section {
 }
 
 #background {
-    height: 725px;
-    background-color: #3d494d;
+    height: 525px;
+    background-color: #c0d4d6;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 body {
     background-color: #3d494d;
+    font-family: "Electrolize", "Trispace", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -40,9 +50,15 @@ nav a:hover {
 }
 
 .book, .join {
-    background-color: #3d494d;
-    color:#e7ede8;
+    background-color: #e7ede8;
+    color: #3d494d;
     text-decoration: none;
+    font-family: "Electrolize", "Trispace", sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
 }
 
 .book:hover, .join:hover {
@@ -51,16 +67,23 @@ nav a:hover {
 }
 
 .msg {
-    background-color: #3d494d;
+    background-color: #0A131C;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
-    background-color: #3d494d;
+    background-color: #0A131C;
     color:#e7ede8;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color:#e7ede8;
+    font-family: "Electrolize", "Trispace", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -73,6 +96,9 @@ h4 {
 
 .msg p {
     color:#e7ede8;
+    font-family: "Electrolize", "Trispace", sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -90,6 +116,7 @@ footer a:hover{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -98,4 +125,34 @@ footer a:hover{
 
 footer p a:hover {
     text-decoration:  underline;
+}
+
+nav {
+    background-color: #0A131C;
+
+}
+
+h2 {
+    margin: 0;
+    color: #e7ede8;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .rapids-card, .camping-card  {
+    margin-top: 200px;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
