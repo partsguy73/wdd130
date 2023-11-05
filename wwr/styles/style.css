@@ -137,6 +137,7 @@ footer a:hover{
 
 #hero-img {
     width: 100%;
+
 }
 
 footer p a:hover {
@@ -210,6 +211,7 @@ main section img {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     margin-top: -100px;
 }
 
