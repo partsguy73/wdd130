@@ -257,6 +257,11 @@ main section img {
     text-align: center;
 }
 
+#banner-icon {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
