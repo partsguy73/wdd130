@@ -235,6 +235,28 @@ main section img {
     grid-template-columns: repeat(10, 1fr);
 }
 
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#banner-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+#banner-img {
+    width: 100%;
+    height: 750px;
+}
+
+#banner-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: #e7ede8;
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
