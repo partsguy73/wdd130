@@ -238,6 +238,7 @@ main section img {
 #banner {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    padding-bottom: 60px;
 }
 
 #banner-box {
@@ -258,8 +259,67 @@ main section img {
 }
 
 #banner-icon {
+    grid-column: 1/1;
+    grid-row: 2/2;
+    display: flex;
+    align-items: flex-end;
+}
+
+.river1-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    Color: #e7ede8;
+    padding-bottom: 60px;
+}
+
+.river-card-img {
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.river-card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.river2-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    color: #e7ede8;
+    padding-bottom: 60px;
+}
+
+.river2-card-img {
+    grid-column: 2/3;
+    justify-self: right;
+}
+
+#river2txt {
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 1/2;
+}
+
+.river3-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    Color: #e7ede8;
+    padding-bottom: 60px;
+}
+
+.river3txt {
+    grid-column: 2/3
+}
+
+.river-header {
+    margin-bottom: 30px;
+}
+
+.river-p {
+    text-align: left;
 }
 
 @media screen and (max-width: 900px) {
