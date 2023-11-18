@@ -40,7 +40,7 @@ form {
     display: inline-block;
     width: 90px;
     text-align: right;
-    color: #e7ede8;
+    color: #212630;
   }
   
   input,
@@ -54,7 +54,7 @@ form {
     box-sizing: border-box;
   
     /* Match form field borders */
-    border: 1px solid #999;
+    border: 1px solid #212630;
   }
   
   input:focus,
