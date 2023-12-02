@@ -130,6 +130,17 @@ nav a {
   justify-content: center;
 }
 
+.overlay-image {
+  width: 100%;
+  border: 3px solid black;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.overlay-image:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
 #overlay-text {
   grid-column: 3/5;
   grid-row: 1/2;
@@ -379,6 +390,8 @@ footer a:hover {
   grid-column: 2/3;
   grid-row: 1/2;
   text-align: center;
+  background-color: #c0d4d6;
+  height: 75%;
  }
 
  #web-design-txt h3 {
@@ -389,6 +402,8 @@ footer a:hover {
   grid-column: 1/2;
   grid-row: 2/4;
   text-align: center;
+  background-color: #c0d4d6;
+  height: 70%;
  }
 
  #web-layout-txt h3 {
