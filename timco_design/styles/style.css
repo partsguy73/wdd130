@@ -386,7 +386,7 @@ footer a:hover {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
- #web-design-txt {
+#web-design-txt {
   grid-column: 2/3;
   grid-row: 1/2;
   text-align: center;
@@ -394,30 +394,131 @@ footer a:hover {
   height: 75%;
  }
 
- #web-design-txt h3 {
+#web-design-txt h3 {
   text-decoration: underline;
- }
+}
 
- #web-layout-txt {
+#web-layout-txt {
   grid-column: 1/2;
   grid-row: 2/4;
   text-align: center;
   background-color: #c0d4d6;
   height: 70%;
- }
+}
 
- #web-layout-txt h3 {
+#web-layout-txt h3 {
   text-decoration: underline;
- }
+}
 
- #web-layout {
+#web-layout {
   grid-column: 2/3;
   grid-row: 2/3;
   width: 100%;
   height: 75%;
   border: 3px solid black;
   box-shadow: 5px 5px 10px #6f7364;
- }
+}
+
+#optimization-banner {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  margin-bottom: 100px;
+}
+
+#optimization-img {
+  width: 100%;
+  height: 750px;
+  grid-column: 1/4;
+  grid-row: 1/4;
+}
+
+#optimization-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+#coding-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 50px;
+  margin-bottom: 100px;
+  padding-right: 50px;
+  margin: 50px;
+}
+
+#optimized-design {
+  width: 100%;
+  border: 3px solid black;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+#optimized-design:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+#optimized-design-text {
+  text-align: center;
+  background-color: #c0d4d6;
+}
+
+#optimized-design-text h3 {
+  text-decoration: underline;
+}
+
+.optimization-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 60px;
+  row-gap: 60px;
+  margin: 50px
+}
+
+.keyword {
+  border: 5px solid black;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.seo-analysis {
+  border: 5px solid black;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.goal-setting {
+  border: 5px solid black;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.indexing {
+  border: 5px solid black;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.analytics {
+  border: 5px solid black;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.error-reporting {
+  border: 5px solid black;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+
 
 @media screen and (max-width: 768px) {
   body {
